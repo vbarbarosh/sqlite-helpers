@@ -1,0 +1,36 @@
+{
+    "author": "Vladimir Barbarosh <vladimir.barbarosh@gmail.com>",
+    "license": "MIT",
+    "name": "@vbarbarosh/sqlite-helpers",
+    "version": "0.0.0",
+    "description": "Thin wrappers around `sqlite3` package",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "js",
+        "node",
+        "helpers",
+        "sqlite"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vbarbarosh/sqlite-helpers.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vbarbarosh/sqlite-helpers/issues"
+    },
+    "peerDependencies": {
+        "bluebird": "^3.7.2",
+        "sqlite3": "^5.1.7"
+    },
+    "devDependencies": {
+        "mocha": "^10.2.0"
+    },
+    "dependencies": {
+        "@vbarbarosh/node-helpers": "^3.38.1"
+    }
+}
