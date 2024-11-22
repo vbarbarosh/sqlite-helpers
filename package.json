@@ -2,7 +2,7 @@
     "author": "Vladimir Barbarosh <vladimir.barbarosh@gmail.com>",
     "license": "MIT",
     "name": "@vbarbarosh/sqlite-helpers",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Thin wrappers around `sqlite3` package",
     "files": [
         "src"
