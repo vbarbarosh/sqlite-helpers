@@ -1,3 +1,7 @@
+/**
+ * @link https://www.sqlite.org/lang_expr.html#glob
+ * @link https://stackoverflow.com/a/24281125
+ */
 function sqlite_escape_glob(s)
 {
     return s.replace(/([*?\[\]])/g, function (s) {
